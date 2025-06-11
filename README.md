@@ -8,6 +8,7 @@ This project demonstrates a multi-agent orchestration pipeline using [VoltAgent]
 - **Draft Writer**: Writes a draft based on the outline.
 - **Psych Hooks Specialist**: Suggests psychological hooks to enhance the content.
 - **OpenTelemetry integration**: For tracing and observability.
+![image](https://github.com/user-attachments/assets/07cbcdcc-4ecd-4d2f-854a-38c40f3c5525)
 
 ## Project Structure
 ```
@@ -46,6 +47,7 @@ This project demonstrates a multi-agent orchestration pipeline using [VoltAgent]
   npm run dev:pipe
   ```
   This will execute a sample prompt through the supervisor agent, which delegates to the sub-agents and prints the final output.
+![image](https://github.com/user-attachments/assets/45d91a02-a65e-47f5-b1c4-49098d7658d1)
 
 ## Notes
 - The current setup uses the Groq Meta-Llama model for all agents. If you want true agent orchestration (where the supervisor actually delegates to sub-agents), use an OpenAI GPT-4 model for the supervisor.
